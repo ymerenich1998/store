@@ -5,5 +5,5 @@ class Model < ApplicationRecord
          :recoverable, :rememberable, :trackable, :validatable
 
          validates :email, :password_confirmation, :password, presence: true
- validates :email, uniqueness: true
+ 		validates :email, uniqueness: true
 end
